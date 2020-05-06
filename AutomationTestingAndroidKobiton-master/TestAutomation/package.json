@@ -2,9 +2,9 @@
   "name": "testautomation",
   "version": "1.0.0",
   "description": "",
-  "main": "TestAutomation.js",
+  "main": "Login.js",
   "scripts": {
-    "test": "mocha TestAutomation.js"
+    "test": "mocha Login.js"
   },
   "author": "Harpreet SIngh",
   "license": "ISC",

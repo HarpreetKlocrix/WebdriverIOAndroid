@@ -6,7 +6,7 @@ exports.options ={
         sessionDescription: '',
         deviceOrientation:  'portrait',
         captureScreenshots: true,
-        app:                'kobiton-store:54505',
+        app:                'kobiton-store:59646',
         groupId:            992, // Group: SavvyQA
         deviceGroup:        'KOBITON',
         deviceName:         'Galaxy A9 (2018)',

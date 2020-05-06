@@ -62,7 +62,7 @@ async function main() {
     ///Enter the user registered Phone Number
     await driver 
     .waitForElementByXPath("//*[@class='android.widget.EditText']")
-    .sendKeys('8699859182')
+    .sendKeys('8699859100')
 
     await driver 
     .waitForElementByXPath("//*[@text='SUBMIT']")
