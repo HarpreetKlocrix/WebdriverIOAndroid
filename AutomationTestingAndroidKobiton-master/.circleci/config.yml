@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/TestAutomation
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run:
+          name: npm-restore-deps
+          command: npm install
+          working_directory: TestAutomation
+      - run:
+          name: app-auto-testing
+          command: npm test
+          working_directory: TestAutomation

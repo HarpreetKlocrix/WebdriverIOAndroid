@@ -2,21 +2,25 @@
   "name": "testautomation",
   "version": "1.0.0",
   "description": "",
-  "main": "Login.js",
+  "main": "Index.js",
   "scripts": {
-    "test": "mocha Login.js"
+    "test": "mocha IOS-Savvy",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
   },
-  "author": "Harpreet SIngh",
+  "author": "Harpreet Singh",
   "license": "ISC",
   "dependencies": {
     "babel-polyfill": "^6.26.0",
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
     "wd": "^1.11.2",
     "xmldom": "^0.1.27"
   },
   "devDependencies": {
+    "mocha": "^7.1.2",
     "ng-faker": "^1.3.1"
+  },
+  "directories": {
+    "test": "TestAutomation"
   }
 }
