@@ -14,7 +14,7 @@
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "wd": "^1.11.2",
-    "xmldom": "^0.1.27"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "mocha": "^7.1.2",
